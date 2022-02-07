@@ -23,6 +23,23 @@ d3.json(tpBoundariesURL).then(function(data) {
  
 ![image](https://user-images.githubusercontent.com/67409852/146695296-11a77209-d79b-4f1f-a242-3af0b1c73837.png)
 
+Add Major Earthquake Data
+- Add a third layer group variable for the major earthquake data
+- Add a reference to the major earthquake data to the overlay object
+- Use the d3.json() callback method to make a call to the major earthquake data from the GeoJSON Summary Feed for M4.5+ Earthquakes for the past 7 days
+```
+
+```
+- Use the same parameters in the styleInfo() function that will make a call to the getColor() and getRadius() functions
+- Change the getColor() function to use only three colors for the following magnitudes; magnitude less than 5, a magnitude greater than 5, and a magnitude greater than 6
+```
+
+```
+- Use the same parameters from the preceding step in the getRadius() function
+- Then, pass the major earthquake data into the GeoJSON layer and do the following with the geoJSON()
+- Add the major earthquake layer group variable to the map, i.e, majorEQ.addTo(map), and then close the d3.json() callback
+- Start Python server
+
 ## Summary
 
 ![image](https://user-images.githubusercontent.com/67409852/146695276-277fa2e9-ac54-4531-b56b-aac8453f5541.png)
