@@ -1,6 +1,11 @@
 # Mapping Earthquakes
 
 ## Overview
+In this analysis, an earthquake map with two different maps and the earthquake overlay was created using VS Code, JavaScript, HTML, and CSS. The creation of more maps will show the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map. The steps to complete this are:
+
+- Add Tectonic Plate Data
+- Add Major Earthquake Data
+- Add an Additional Map
 
 ## Results
 
