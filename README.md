@@ -10,7 +10,13 @@ In this analysis, an earthquake map with two different maps and the earthquake o
 ## Results
 
 Add Tectonic Plate Data
-- 
+- Add a second layer group variable for the tectonic plate data
+- Add a reference to the tectonic plate data to the overlay object
+- Using d3.json() callback method, make a call to the tectonic plate data
+```
+
+```
+- Start the Python server and launch the index.html file 
 
 ## Summary
 
