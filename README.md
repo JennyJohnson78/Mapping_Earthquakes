@@ -16,7 +16,8 @@ Add Tectonic Plate Data
 ```
 
 ```
-- Start the Python server and launch the index.html file 
+- Start the Python server and launch the index.html file
+ 
 ![image](https://user-images.githubusercontent.com/67409852/146695296-11a77209-d79b-4f1f-a242-3af0b1c73837.png)
 
 ## Summary
