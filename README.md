@@ -1,5 +1,11 @@
 # Mapping Earthquakes
 
+## Overview
+
+## Results
+
+## Summary
+
 ![image](https://user-images.githubusercontent.com/67409852/146695276-277fa2e9-ac54-4531-b56b-aac8453f5541.png)
 
 ![image](https://user-images.githubusercontent.com/67409852/146695296-11a77209-d79b-4f1f-a242-3af0b1c73837.png)
