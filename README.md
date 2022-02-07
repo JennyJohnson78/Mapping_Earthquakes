@@ -28,12 +28,36 @@ Add Major Earthquake Data
 - Add a reference to the major earthquake data to the overlay object
 - Use the d3.json() callback method to make a call to the major earthquake data from the GeoJSON Summary Feed for M4.5+ Earthquakes for the past 7 days
 ```
-
+d3.json(majorEarthquakesURL).then(function(data) {
+    function styleInfo(feature) {
+        function getRadius(magnitude) {
+            if (magnitude === 0) {
+                return 1;
+            }
+            return magnitude * 4;
+        }
 ```
 - Use the same parameters in the styleInfo() function that will make a call to the getColor() and getRadius() functions
 - Change the getColor() function to use only three colors for the following magnitudes; magnitude less than 5, a magnitude greater than 5, and a magnitude greater than 6
 ```
-
+function getColor(magnitude) {
+            if (magnitude > 5) {
+                return "#ea2c2c";
+              }
+              if (magnitude > 4) {
+                return "#ea822c";
+              }
+              if (magnitude > 3) {
+                return "#ee9c00";
+              }
+              if (magnitude > 2) {
+                return "#eecc00";
+              }
+              if (magnitude > 1) {
+                return "#d4ee00";
+              }
+              return "#98ee00";
+        }
 ```
 - Use the same parameters from the preceding step in the getRadius() function
 - Then, pass the major earthquake data into the GeoJSON layer and do the following with the geoJSON()
