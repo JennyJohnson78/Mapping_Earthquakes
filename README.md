@@ -14,7 +14,10 @@ Add Tectonic Plate Data
 - Add a reference to the tectonic plate data to the overlay object
 - Using d3.json() callback method, make a call to the tectonic plate data
 ```
-
+d3.json(tpBoundariesURL).then(function(data) {
+    console.log(data);
+    L.geoJSON(data).addTo(tectonicPlates);
+});
 ```
 - Start the Python server and launch the index.html file
  
