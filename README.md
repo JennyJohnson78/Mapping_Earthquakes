@@ -9,6 +9,9 @@ In this analysis, an earthquake map with two different maps and the earthquake o
 
 ## Results
 
+Add Tectonic Plate Data
+- 
+
 ## Summary
 
 ![image](https://user-images.githubusercontent.com/67409852/146695276-277fa2e9-ac54-4531-b56b-aac8453f5541.png)
