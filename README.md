@@ -66,7 +66,9 @@ function getColor(magnitude) {
 
 ![image](https://user-images.githubusercontent.com/67409852/146695321-2466b66d-115a-42ea-bd79-f2fbb817cab8.png)
 
-## Summary
+## Add an Additional Map
+
+- 
 
 ![image](https://user-images.githubusercontent.com/67409852/146695348-ad137d4f-1b5f-4494-a278-f7e35ba371a4.png)
 
